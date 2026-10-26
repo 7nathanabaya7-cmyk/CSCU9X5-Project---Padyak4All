@@ -1,0 +1,47 @@
+/***Hero***/
+.hero {
+  display: flex;
+  min-height: 80vh;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+}
+.heroContent {
+  margin-left: 0;
+  width: 30%;
+}
+.headline1{
+  color: #2D0A43;
+}
+.headline2 {
+  position: relative;
+  color: #FFA719;
+  top: -10vh;
+}
+.heading {
+  font-size: 15vh ;
+  height: min-content;
+}
+.heroSmTxt {
+  position: relative;
+  top: -12vh;
+}
+.heroImg {
+  width: 35vw;
+  border: 2px solid black;
+}
+.heroBtn {
+  margin-top: -8vw;
+  background-color: #2D0A43;
+  color: #FFFADA;
+}
+.heroBtn:hover {
+  background-color: #FFA719;
+  color: #2D0A43;
+}
+
+/***Timeline***/
+.timeline {
+  background-color: #2D0A43;
+}
