@@ -34,10 +34,6 @@
 .heroBtn {
   margin-top: -8vw;
 }
-.heroBtn:hover {
-  background-color: #FFA719;
-  color: #2D0A43;
-}
 
 /***Banner***/
 .banner {
@@ -66,10 +62,11 @@
 
 /***About***/
 .about {
-  margin-block: 5%;
+  margin-block: 8%;
   display: flex;
   justify-content: center;
   margin-inline: 10vw;
+  margin-bottom: 3% !important;
   gap: 2.5%;
 }
 .about img {
@@ -88,7 +85,7 @@
 }
 .explore h1 {
   color: #FFA719;
-  font-size: 5em;
+  font-size: clamp(2.5rem, 8vw, 5em);
 }
 .explore .horizontalLine {
   background-color: #2D0A43;
@@ -96,29 +93,38 @@
   height: 4px;
 }
 .explore .exploreBody {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 4vw, 4rem);
+  width: min(90%, 70rem);
   margin-top: 4%;
 }
 .explore .col {
   display: flex;
   flex-direction: column;
-  margin-inline: 10%;
-  gap: 5%;
+  min-width: 0;
+  gap: clamp(1.25rem, 3vw, 2.5rem);
 }
 .explore img {
-  width: 15vw;
+  flex: 0 0 45%;
+  width: 45%;
+  aspect-ratio: 4 / 3;
+  height: auto;
+  object-fit: cover;
   border: 2px solid #2D0A43;
 }
 .exploreElmnt {
   display: flex;
-  width: max-content;
+  width: 100%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2%;
+  gap: clamp(0.75rem, 2vw, 1.25rem);
 }
 .exploreElmnt button {
-  height: 8vh;
-  width: 14vw;
+  flex: 1;
+  min-width: 0;
+  min-height: 3.5rem;
+  height: auto;
+  white-space: normal;
 }

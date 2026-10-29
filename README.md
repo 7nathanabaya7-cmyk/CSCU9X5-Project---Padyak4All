@@ -28,3 +28,11 @@ techherobg - https://bike.shimano.com/content/dam/one-website/common/stories/shi
 duraacedi2 - https://bike.shimano.com/content/dam/one-website/common/category/road/shimano-road/FullMediaSlider_di2shifting_PC_v1.jpg
 
 powerhousesbg - https://r.testifier.nl/Acbs8526SDKI/resizing_type:fit/watermark:Sirotti/width:1920/height:1280/plain/https://s3-newsifier.ams3.digitaloceanspaces.com/www.indeleiderstrui.nl/images/2026-01/tour-de-france-6969f1c20cd20.jpg@webp
+
+oldcyclists - https://mattsko.com/wp-content/uploads/2021/07/bicycle-tour-de-france-smoking.jpg
+
+grandtourelmnt - https://www.grandtourcycling.org/wp-content/uploads/HOME-PAGE-SLIDER-6.jpg
+
+cyclinggear - https://cyclinggearshub.in/cdn/shop/articles/featured-1777014793695.jpg?v=1777016466&width=3840
+
+teamxg - https://assets.wam.ae/resource/pwl06svp1k91gyqpd.jpeg
