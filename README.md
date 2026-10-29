@@ -15,7 +15,7 @@ oldcycle - https://images.squarespace-cdn.com/content/v1/5167eb5ee4b0f72706527ca
 
 cyclistsinyellow - https://c8.alamy.com/comp/2M2X229/illustration-picture-shows-the-bk-yellow-ride-world-record-attempt-most-yellow-jerseys-on-a-bike-sunday-30-june-2019-in-gent-in-the-marge-of-next-weeks-grand-depart-start-of-the-tour-de-france-cycling-race-in-brussels-belga-photo-nicolas-maeterlinck-2M2X229.jpg
 
-modernbike - https://www.cyclistshub.com/wp-content/uploads/2026/03/Pardus-Spark-EVO-Gen-4-4.jpg
+modernbike - https://www.cyclistshub.com/wp-content/uploads/2026/03/Pardus-Spark-time-Gen-4-4.jpg
 
 location and mountain svg - chatgpt image generation
 
