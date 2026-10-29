@@ -23,6 +23,11 @@ section {
   background-color: #FFFADA;
 }
 
+.btn {
+  background-color: #2D0A43;
+  color: #FFFADA;
+}
+
 .navigation {
   margin-left: auto;
   margin-right: 30px;
