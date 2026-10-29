@@ -56,6 +56,17 @@
 }
 
 /* Timeline */
+.time {
+  --time-bg: #2D0A43;
+  --time-dot: #6D3A8E;
+  --time-accent: #FFA719;
+  --time-card: #FFFADA;
+  --time-ink: #2D0A43;
+  background: var(--time-bg);
+  padding: 3rem 0;
+}
+
+/* Timeline */
 .time-track {
   list-style: none;
   display: flex;
@@ -88,7 +99,7 @@
 }
 .time-dot:hover { transform: scale(1.1); }
 .time-dot:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
-.time-dot[aria-selected="true"] { background: var(--time-accent); }
+.time-dot.active { background: var(--time-accent); }
 .time-year { color: #fff; font-size: 0.85rem; }
 
 /* Card */
