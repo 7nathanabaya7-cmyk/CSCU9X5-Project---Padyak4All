@@ -45,3 +45,72 @@
 .timeline {
   background-color: #2D0A43;
 }
+.time {
+  --time-bg: #2D0A43;
+  --time-dot: #6D3A8E;
+  --time-accent: #FFA719;
+  --time-card: #FFFADA;
+  --time-ink: #2D0A43;
+  background: var(--time-bg);
+  padding: 3rem 0;
+}
+
+/* Timeline */
+.time-track {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2.5rem;
+  padding: 0;
+  position: relative;
+}
+.time-track::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  right: 17px;
+  height: 3px;
+  background: var(--time-accent);
+}
+.time-track li { position: relative; text-align: center; }
+.time-dot {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto 0.4rem;
+  border-radius: 50%;
+  border: 3px solid var(--time-accent);
+  background: var(--time-dot);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+.time-dot:hover { transform: scale(1.1); }
+.time-dot:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+.time-dot[aria-selected="true"] { background: var(--time-accent); }
+.time-year { color: #fff; font-size: 0.85rem; }
+
+/* Card */
+.time-card {
+  background: var(--time-card);
+  color: var(--time-ink);
+  border-radius: 2rem;
+  padding: 2.5rem 2.75rem;
+}
+.time-card h2 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  margin-bottom: 1.25rem;
+}
+.time-card h2 span { color: var(--time-accent); }
+.time-card p { max-width: 75ch; line-height: 1.55; }
+.time-card p:last-child { margin-bottom: 0; }
+
+@media (max-width: 575.98px) {
+  .time-card { padding: 1.75rem 1.5rem; border-radius: 1.5rem; }
+  .time-year { font-size: 0.7rem; }
+  .time-dot { width: 28px; height: 28px; }
+  .time-track::before { top: 13px; left: 13px; right: 13px; }
+}
