@@ -1,0 +1,33 @@
+.horizontalLine {
+  background-color: #FFA719 !important;
+  height: 1px !important;
+  width: 10% !important;
+}
+
+/***Hero***/
+.hero {
+  background:
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../assets/img/grandtourherobg.png') no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: clamp(2.5rem, 8vw, 5em);
+  font-style: normal;
+  color: #FFA719;
+}
+.hero p {
+  display: flex;
+  padding: 15px;
+  text-align: center;
+  color: #FFFADA;
+  width: 30%;
+}

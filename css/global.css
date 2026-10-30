@@ -44,6 +44,12 @@ section {
   gap: 1.5rem;
 }
 
+.horizontalLine {
+  background-color: #2D0A43;
+  width: 30%;
+  height: 4px;
+}
+
 /***NavBar***/
 .navBar {
   display: flex;
