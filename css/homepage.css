@@ -87,11 +87,6 @@
   color: #FFA719;
   font-size: clamp(2.5rem, 8vw, 5em);
 }
-.explore .horizontalLine {
-  background-color: #2D0A43;
-  width: 30%;
-  height: 4px;
-}
 .explore .exploreBody {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

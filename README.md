@@ -35,4 +35,4 @@ grandtourelmnt - https://www.grandtourcycling.org/wp-content/uploads/HOME-PAGE-S
 
 cyclinggear - https://cyclinggearshub.in/cdn/shop/articles/featured-1777014793695.jpg?v=1777016466&width=3840
 
-teamxg - https://assets.wam.ae/resource/pwl06svp1k91gyqpd.jpeg
+teamxrg - https://assets.wam.ae/resource/pwl06svp1k91gyqpd.jpeg
