@@ -1,7 +1,7 @@
 .horizontalLine {
-  background-color: #FFA719 !important;
-  height: 1px !important;
-  width: 10% !important;
+  background-color: #FFA719;
+  height: 2px;
+  width: 10%;
 }
 
 /***Hero***/
@@ -30,4 +30,17 @@
   text-align: center;
   color: #FFFADA;
   width: 30%;
+}
+
+/***Grand Tours***/
+.grandtours h2 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: clamp(2rem, 6vw, 4em);
+  color: #2d0a43;
+}
+.grandtours .giro .horizontalLine {
+  background-color: #E83E78;
+  height: 4px;
+  width: 20%;
 }
