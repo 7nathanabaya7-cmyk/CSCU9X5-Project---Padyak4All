@@ -54,3 +54,5 @@ visma - https://d1lk6qpkbduawh.cloudfront.net/_1701x927_crop_center-center_85_no
 ag2r - https://cdn.mos.cms.futurecdn.net/wreMLArJcrdophfofcUWhc.jpg
 
 trek - https://cdn.mos.cms.futurecdn.net/kNHCrhqRQXi73EqWJ6U2c3-1280-80.jpg
+
+all logos from svgrepo.com

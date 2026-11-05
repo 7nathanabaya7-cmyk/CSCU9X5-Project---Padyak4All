@@ -155,11 +155,11 @@
       <img src="../assets/img/logo.svg" alt="Logo" class="logo">
       <p>
         <span class="additionalLink">Additional Links:</span>
-        <a href="">Homepage</a>
-        <a href="">Evolution</a>
-        <a href="">Grand Tour</a>
-        <a href="">Tech</a>
-        <a href="">Powerhouses</a>
+        <a href="../pages/Homepage.htm">Homepage</a>
+        <a href="../pages/Evolution.htm">Evolution</a>
+        <a href="../pages/GrandTour.htm">Grand Tour</a>
+        <a href="../pages/Tech.htm">Tech</a>
+        <a href="../pages/Powerhouses.htm">Powerhouses</a>
       </p>
     </div>
     <div class="section">
@@ -167,13 +167,99 @@
         <div>
           <p class="footerCreator">Meet the creator:</p>
         </div>
-        <div>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+        <div class="socials">
+          <a href="https://github.com/7nathanabaya7-cmyk"><img src="../assets/img/github-square-svgrepo-com.svg" alt="github" id="github"></a>
+          <a href="https://www.linkedin.com/in/nathanabaya/"><img src="../assets/img/linkedin-svgrepo-com.svg" alt="linkedin" /></a>
+          <a href="https://www.instagram.com/nateskaboom/"><img src="../assets/img/instagram-svgrepo-com.svg" alt="instagram" /></a>
         </div>
       </div>
-        <p class="copyright">© Nathan Abaya 2026</p>
+        <p class="mb-2">&copy; 2026 Padjak4All</p>
+
+        <button type="button" class="btn btn-legal" data-bs-toggle="modal" data-bs-target="#legalModal">
+          Terms of Use &amp; Privacy Policy
+        </button>
+
+      <div class="modal fade legal-modal" id="legalModal" tabindex="-1" aria-labelledby="legalModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="legalModalLabel">Padjak4All legal information</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+              <ul class="nav nav-tabs mb-3" id="legalTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="terms-tab" data-bs-toggle="tab" data-bs-target="#terms-pane"
+                          type="button" role="tab" aria-controls="terms-pane" aria-selected="true">Terms of Use</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="privacy-tab" data-bs-toggle="tab" data-bs-target="#privacy-pane"
+                          type="button" role="tab" aria-controls="privacy-pane" aria-selected="false">Privacy Policy</button>
+                </li>
+              </ul>
+
+              <div class="tab-content">
+
+                <div class="tab-pane fade show active" id="terms-pane" role="tabpanel" aria-labelledby="terms-tab" tabindex="0">
+                  <p class="updated">Last updated: 5 November 2026</p>
+
+                  <h3>1. About this website</h3>
+                  <p>Padjak4All is a cycling encyclopedia created by Nathan Abaya as a third-year User Experience (UX) project at University Of Stirling. It is an educational, non-commercial project. It is not a business, and it is not affiliated with any cycling team, brand, race organiser or governing body.</p>
+
+                  <h3>2. Acceptance of these terms</h3>
+                  <p>By using this website you agree to these Terms of Use. If you do not agree, please stop using the site.</p>
+
+                  <h3>3. Content and accuracy</h3>
+                  <p>The articles on Evolution, Grand Tours, Tech and Powerhouses are written for learning and general interest. I make a reasonable effort to keep them accurate, but they may contain errors or be out of date. Please verify important facts, such as race results, records and technical specifications, with official sources before relying on them.</p>
+
+                  <h3>4. Acceptable use</h3>
+                  <p>You agree not to misuse the site. That includes attempting to disrupt it, scraping it in a way that harms its performance, or presenting its content as your own work.</p>
+
+                  <h3>5. Intellectual property and credits</h3>
+                  <p>The design, layout and original text of Padjak4All belong to Nathan Abaya. Third-party images, logos, trademarks and quotations remain the property of their respective owners and are used for educational purposes with credit given where known. If you own content shown here and want it credited or removed, contact me (see section 8) and I will respond promptly.</p>
+
+                  <h3>6. External links</h3>
+                  <p>This site may link to other websites. I do not control them and I am not responsible for their content or privacy practices.</p>
+
+                  <h3>7. Disclaimer and limitation of liability</h3>
+                  <p>This site is provided "as is", without warranties of any kind. To the extent permitted by law, I am not liable for any loss or damage arising from the use of, or inability to use, this website. The site may change or go offline at any time as the project evolves.</p>
+
+                  <h3>8. Changes and contact</h3>
+                  <p>These terms may be updated, and the date at the top shows the latest version. Questions? Email 7nathanabaya7@gmail.com.</p>
+
+                  <p class="mb-0">Governing law: United Arab Emirates, Dubai.</p>
+                </div>
+
+                <!-- ===== PRIVACY POLICY ===== -->
+                <div class="tab-pane fade" id="privacy-pane" role="tabpanel" aria-labelledby="privacy-tab" tabindex="0">
+                  <p class="updated">Last updated: 5 November 2026</p>
+
+                  <h3>1. Summary</h3>
+                  <p>Padjak4All does not require an account, and the site itself does not ask you for personal information. I do not sell, rent or share your data.</p>
+
+                  <h3>2. Information collected automatically</h3>
+                  <p>Like most websites, the server hosting Padjak4All (Github) may log technical data such as your IP address, browser type and the pages you visit. This is handled by the host under its own privacy policy, and I do not use it to identify you.</p>
+
+                  <h3>3. Third-party services</h3>
+                  <p>This site loads resources from third parties, such as the Bootstrap CDN and Google Fonts, if used. When your browser requests those files, the provider can see your IP address. Please see their privacy policies for details.</p>
+
+                  <h3>4. Cookies</h3>
+                  <p>This site does not set any cookies.</p>
+
+                  <h3>5. Your rights</h3>
+                  <p>You can ask what information I hold about you, and ask for it to be corrected or deleted, by emailing 7nathanabaya7@gmail.com.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-legal" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </footer>
