@@ -1,3 +1,10 @@
+:root {
+  --plum-noir: #2D0A43;
+  --lavender-smoke: #6D3A8E;
+  --buttercream: #FFFADA;
+  --butterlight: #FFCD7B;
+  --honey-drizzle: #FFA719;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -224,6 +231,7 @@ footer .section {
 }
 footer .footerCreator {
   font-size: 150%;
+  margin: 0;
 }
 footer p {
   display: flex;
@@ -233,30 +241,92 @@ footer p {
 footer a {
   color: #FFFADA;
 }
+footer .socials {
+  display: flex;
+  gap: 5%;
+}
+footer .socials img {
+  width: 32px;
+  filter: brightness(0) saturate(100%) invert(92%) sepia(6%) saturate(2342%) hue-rotate(317deg) brightness(112%) contrast(109%);
+  transition: filter 0.25s ease;
+}
+footer #github {
+  width: 36px !important;
+}
+footer .socials img:hover {
+  filter: brightness(0) saturate(100%) invert(85%) sepia(43%) saturate(5317%) hue-rotate(345deg) brightness(103%) contrast(101%);
+}
 
+/***Back To Top***/
 #backToTop {
-   display: none;
-   position: fixed;
-   bottom: 20px;
-   right: 30px;
-   z-index: 99;
-   border: none;
-   outline: none;
-   background-color: transparent;
-   color: #FFA719;
-   background-color: #2D0A43;
-   cursor: pointer;
-   padding: 15px;
-   border: 2px solid #FFA719;
-   border-radius: 10px;
-   font-size: 18px;
-   transition: 0.2s ease;
+  display: none;
+  position: fixed;
+  bottom: 35px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  width: 3.5vw;
+  height: 6vh;
+  background-color: #2D0A43;
+  color: #FFA719;
+  cursor: pointer;
+  padding: 0 12px;
+  border: 2px solid #FFA719;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: 0.2s ease;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 #backToTop:hover {
    background-color: #FFA719;
    border: 2px solid #2D0A43;
    color: #2D0A43;
 }
+
+/***Legal***/
+.btn-legal {
+  background-color: var(--honey-drizzle);
+  border: 2px solid var(--honey-drizzle);
+  color: var(--plum-noir);
+  font-weight: 600;
+  transition: background-color .2s ease, border-color .2s ease;
+}
+.btn-legal:hover,
+.btn-legal:focus-visible {
+  background-color: var(--buttercream);
+  border-color: var(--buttercream);
+  color: var(--plum-noir);
+}
+.btn-legal:focus-visible { outline: 3px solid var(--butterlight); outline-offset: 2px; }
+
+.legal-modal .modal-content { background-color: var(--buttercream); color: var(--plum-noir); border: 0; }
+.legal-modal .modal-header  { background-color: var(--plum-noir); color: var(--buttercream); border-bottom: 4px solid var(--honey-drizzle); }
+.legal-modal .btn-close     { filter: invert(1) grayscale(100%) brightness(200%); }
+.legal-modal .modal-footer  { border-top: 1px solid var(--butterlight); }
+
+.legal-modal .nav-tabs { border-bottom: 2px solid var(--butterlight); }
+.legal-modal .nav-link { color: var(--lavender-smoke); border: 0; border-bottom: 4px solid transparent; font-weight: 600; }
+.legal-modal .nav-link:hover { color: var(--plum-noir); }
+.legal-modal .nav-link.active {
+  background: transparent;
+  color: var(--plum-noir);
+  border-bottom-color: var(--honey-drizzle);
+}
+
+.legal-modal h3 { font-size: 1.05rem; margin-top: 1.25rem; color: var(--lavender-smoke); }
+.legal-modal .updated { font-size: .85rem; color: var(--lavender-smoke); }
+
+/* Placeholders you must fill in. Delete this class once done. */
+.todo { background: var(--butterlight); padding: 0 .25em; border-radius: .2em; }
 
 /*******Fonts*******/
 /***Poppins***/
