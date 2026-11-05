@@ -1,33 +1,112 @@
-.horizontalLine {
-  background-color: #FFA719 !important;
-  height: 1px !important;
-  width: 10% !important;
-}
 
-/***Hero***/
-.hero {
-  background:
-  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url('../assets/img/grandtourherobg.png') no-repeat center center;
-  background-size: cover;
-  height: 50vh;
 
+
+
+/***Grand Tours***/
+.grandtours {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  gap: 5rem;
+  margin-block: 10vh;
 }
-.hero h1 {
+.grandtours h2 {
+  display: flex;
+  flex-direction: column;
   font-family: "Fredoka", sans-serif;
   font-weight: 600;
-  font-size: clamp(2.5rem, 8vw, 5em);
-  font-style: normal;
-  color: #FFA719;
+  font-size: clamp(2rem, 6vw, 4em);
+  color: #2d0a43;
 }
-.hero p {
+.giro {
   display: flex;
-  padding: 15px;
-  text-align: center;
-  color: #FFFADA;
-  width: 30%;
+  justify-content: space-evenly;
+}
+.giro .tourPic {
+  border: 3px solid #E83E78;
+}
+.tdf {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tdf .tourPic {
+  border: 3px solid #FFD700;
+}
+.vuelta {
+  display: flex;
+  justify-content: space-evenly;
+}
+.vuelta .tourPic {
+  border: 3px solid #E83E78;
+}
+.tourPic {
+  height: 55vh;
+}
+.beforeText {
+  display: flex;
+  align-items: center;
+  gap: 1%;
+}
+.beforeText p {
+  color: #E83E78;
+  margin: 0;
+}
+.beforeText img {
+  filter: invert(34%) sepia(83%) saturate(1698%) hue-rotate(302deg) brightness(92%) contrast(92%);
+  width: 5%;
+}
+.grandtours .giro .horizontalLine {
+  background-color: #E83E78;
+  height: 4px;
+  width: 40%;
+}
+.grandtours .bodyText {
+  margin-top: 4%;
+}
+.grandtours .metrics {
+  display: flex;
+  justify-content: space-between;
+}
+.grandtours .metricElement {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.grandtours .metricElement img {
+  width: clamp(1.75rem, 3vw, 2.75rem);
+  height: clamp(1.75rem, 3vw, 2.75rem);
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.grandtours h6 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: clamp(1rem, 1.5vw, 2em);
+  color: #2d0a43;
+  margin: 0;
+}
+.grandtours .metricElement p {
+  font-size: clamp(.5rem, 1vw, 1em);
+  color: #2d0a43;
+  margin: 0;
+}
+.grandtours .description {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+}
+.grandtours .description button {
+  margin-top: auto;
+  width: 50%;
+}
+.grandtours .description button img {
+  width: 10%;
+  filter: brightness(0) saturate(100%) invert(96%) sepia(17%) saturate(500%) hue-rotate(7deg) brightness(104%) contrast(102%);
+  transition: 0.2s;
+}
+.grandtours .description button:hover img {
+  width: 10%;
+  filter: brightness(0) saturate(100%) invert(8%) sepia(28%) saturate(2984%) hue-rotate(247deg) brightness(88%) contrast(105%);
+}
+.grandtours .tourPic {
+  width: 45vw;
 }

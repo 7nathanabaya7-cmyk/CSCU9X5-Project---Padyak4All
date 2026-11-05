@@ -1,0 +1,69 @@
+body { margin: 0; background: #2D0A43; font-family: "Poppins", sans-serif; }
+
+.tech {
+  --tech-bg: #2D0A43;
+  --tech-dot: #6D3A8E;
+  --tech-accent: #FFA719;
+  --tech-card: #FFFADA;
+  --tech-ink: #2D0A43;
+  background: var(--tech-bg);
+  padding: 3rem 0;
+  width: 80vw;
+  margin-inline: auto;
+}
+
+/* Image frame */
+.techPic {
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  object-fit: cover;
+  display: block;
+  border: 6px solid var(--tech-accent);
+  border-radius: 2rem;
+  background: #b5b5b8;
+}
+
+/* Pill tabs */
+.techTabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 0.75rem;
+  margin: 2rem 0;
+}
+.techTab {
+  min-width: 6.5rem;
+  padding: 0.5rem 1.25rem;
+  border: 0;
+  border-radius: 50rem;
+  background: var(--tech-card);
+  color: var(--tech-ink);
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: background-color 0.2s, transform 0.2s;
+}
+.techTab:hover { transform: translateY(-2px); }
+.techTab:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+.techTab.active { background: var(--tech-accent); }
+
+/* Text card */
+.techCard {
+  background: var(--tech-card);
+  color: var(--tech-ink);
+  border-radius: 2rem;
+  padding: 2rem 2.25rem;
+}
+.techCard h2 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  margin-bottom: 0.75rem;
+}
+.techCard h2 span { color: var(--tech-accent); }
+.techCard p { margin: 0; line-height: 1.55; max-width: 75ch; }
+
+@media (max-width: 575.98px) {
+  .techTabs { grid-template-columns: repeat(2, 1fr); }
+  .techPic { border-width: 4px; border-radius: 1.5rem; aspect-ratio: 4 / 3; }
+  .techCard { padding: 1.5rem; border-radius: 1.5rem; }
+}

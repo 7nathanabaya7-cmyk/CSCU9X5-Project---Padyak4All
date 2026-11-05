@@ -13,6 +13,7 @@
 
   <!--CSS-->
   <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/tech.css">
 </head>
 <body>
   
@@ -29,6 +30,85 @@
   </div>
 </nav>
 
+<section class="heroTech herogtp">
+  <h1>Tech</h1>
+  <div class="horizontalLinegtp"></div>
+  <p>The best gears in the world of modern cycling and their details.</p>
+</section>
+
+<section class="tech" id="tech">
+  <div class="container">
+
+    <img class="techPic" data-panel="di2" src="../assets/img/duraacedi2.avif" alt="Shimano Di2 shifter, rear derailleur and front derailleur">
+    <img class="techPic" data-panel="computer" src="../assets/img/computer.jpg" alt="Cycling computer" hidden>
+    <img class="techPic" data-panel="trainers" src="../assets/img/trainer.webp" alt="Smart trainer" hidden>
+    <img class="techPic" data-panel="sensors" src="../assets/img/sensor.webp" alt="Power meter and sensors" hidden>
+
+    <div class="techTabs">
+      <button type="button" class="techTab active" data-target="di2">Di2</button>
+      <button type="button" class="techTab" data-target="computer">Computer</button>
+      <button type="button" class="techTab" data-target="trainers">Trainers</button>
+      <button type="button" class="techTab" data-target="sensors">Sensors</button>
+    </div>
+
+    <div class="techCard">
+      <article data-panel="di2">
+        <h2>Shimano’s <span>“Di2”</span></h2>
+        <p>Di2 stands for “Digital Integrated Intelligence,” Shimano’s electronic shifting system that uses electrical signals instead of mechanical cables to deliver fast, precise, and reliable gear changes across road, MTB, gravel, and e-bikes.</p>
+      </article>
+
+      <article data-panel="computer" hidden>
+        <h2>Cycling <span>“Computers”</span></h2>
+        <p>A cycling computer, or head unit, uses GPS and wireless sensors to show speed, distance, route, power, and heart rate in real time. Many pair with electronic shifting and sync every ride to apps like Strava.</p>
+      </article>
+
+      <article data-panel="trainers" hidden>
+        <h2>Smart <span>“Trainers”</span></h2>
+        <p>A smart trainer holds your bike in place and adds resistance electronically, so apps like Zwift can simulate hills and group rides indoors. Built-in power measurement lets you train by watts in any weather.</p>
+      </article>
+
+      <article data-panel="sensors" hidden>
+        <h2>Power <span>“Sensors”</span></h2>
+        <p>Power meters measure force in the cranks, pedals, or hubs, while cadence, speed, and heart-rate sensors add more data. Together they turn feel into numbers: watts, FTP, and cadence.</p>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+<section class="extra">
+  <h1 class="fredoka-fr">Extra</h1>
+  <div class="horizontalLine"></div>
+  <div class="extraBody">
+    <div class="col">
+      <div class="extraElmnt">
+        <span>Shimano</span>
+        <p>Shimano, Inc., originally Shimano Iron Works and later Shimano Industries, Inc., is a Japanese company for cycling components.</p>
+        <button type="button" class="btn btn-lg btn">Evolution</button>
+      </div>
+      
+      <div class="extraElmnt">
+        <span>Garmin</span>
+        <p>Garmin is a global technology company best known for its GPS navigation systems and fitness‑focused smartwatches.</p>
+        <button type="button" class="btn btn-lg btn">Grand Tours</button>
+      </div>
+    </div>
+    <div class="col">
+      <div class="extraElmnt">
+        <span>Wahoo</span>
+        <p>Wahoo is a cycling‑technology brand that builds smart trainers, GPS bike computers, pedals, sensors, and training software used for cycling.</p>
+        <button type="button" class="btn btn-lg btn">Grand Tours</button>
+      </div>
+
+      <div class="extraElmnt">
+        <span>UCI Regulations</span>
+        <p>This website offers information about all of the official regulations of the proper equipment are supposed to be used in professional cycling races held by the UCI.</p>
+        <button type="button" class="btn btn-lg btn">Grand Tours</button>
+      </div>
+    </div>
+  </div>
+</section>  
+
 <footer>
   <div class="footerFull">
     <div class="section">
@@ -42,6 +122,7 @@
         <a href="">Powerhouses</a>
       </p>
     </div>
+
     <div class="section">
       <div>
         <div>
@@ -61,6 +142,7 @@
 <button onclick="topFunction()" id="backToTop" class="poppins-medium" title="Go to top">Top</button>
 
 <script src="../js/global.js"></script>
+<script src="../js/tech.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

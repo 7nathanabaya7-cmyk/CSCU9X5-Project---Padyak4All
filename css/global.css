@@ -27,6 +27,9 @@ section {
 }
 
 .btn {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-style: normal;
   background-color: #2D0A43;
   color: #FFFADA;
 }
@@ -48,6 +51,64 @@ section {
   background-color: #2D0A43;
   width: 30%;
   height: 4px;
+}
+
+/***Hero for gt, tech, and powerhouses***/
+.heroGT {
+  background:
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../assets/img/grandtourherobg.png') no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heroTech {
+  background:
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../assets/img/techherobg.webp') no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heroPowerhouses {
+  background:
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../assets/img/powerhousesbg.webp') no-repeat center center;
+  background-size: cover;
+  background-position: 70% 78%;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.herogtp h1 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: clamp(2.5rem, 8vw, 5em);
+  font-style: normal;
+  color: #FFA719;
+}
+.herogtp p {
+  display: flex;
+  padding: 15px;
+  text-align: center;
+  color: #FFFADA;
+  width: 30%;
+}
+.horizontalLinegtp {
+  background-color: #FFA719;
+  height: 2px;
+  width: 10%;
 }
 
 /***NavBar***/
@@ -74,6 +135,67 @@ nav .logoContainer {
   height: 56px;
   width: auto;
   object-fit: contain;
+}
+
+/***Extra***/
+.extra {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8%;
+}
+.extra h1 {
+  color: #FFA719;
+  font-size: clamp(2.5rem, 8vw, 5em);
+}
+.extra .horizontalLine {
+  background-color: #2D0A43;
+  width: 30%;
+  height: 4px;
+}
+.extra .extraBody {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 4vw, 4rem);
+  width: min(90%, 70rem);
+  margin-top: 4%;
+}
+.extra .col {
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  gap: clamp(1.25rem, 3vw, 2.5rem);
+}
+.extra img {
+  flex: 0 0 45%;
+  width: 45%;
+  aspect-ratio: 4 / 3;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid #2D0A43;
+}
+.extraElmnt {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 10px;
+}
+.extraElmnt button {
+  flex: 1;
+  min-width: 0;
+  min-height: 3.5rem;
+  height: auto;
+  white-space: normal;
+}
+.extraElmnt span {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: clamp(30px, 40px, 50px);
 }
 
 /***footer***/
