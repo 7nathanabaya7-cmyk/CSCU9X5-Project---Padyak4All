@@ -38,8 +38,39 @@
     <p class="heroSmTxt poppins-light">From the 1860s boneshaker to the 2026 modern bikes with wood and iron becoming into carbon fiber as the modern racing standard.</p>
     <button type="button" class="btn btn-lg heroBtn">Explore the Cyclopedia</button>
   </div>
-  <div>
-    <img src="../assets/img/cyclistsinyellow.png" alt="Wheel" class="heroImg">
+
+  <div class="comparison-section">
+    <div class="comparison-container">
+      <div class="comparison-slider">
+        <img
+          src="../assets/img/modernbike.webp"
+          alt="Modern bicycle from 2026"
+          class="after-image"
+        >
+        <img
+          src="../assets/img/oldcycle.webp"
+          alt="Historical bicycle from 1860"
+          class="before-image"
+        >
+        <div class="slider-divider"></div>
+        <div class="slider-handle">
+          <span>‹</span>
+          <span>›</span>
+        </div>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          class="slider-input"
+          aria-label="Compare historical and modern bicycles"
+        >
+      </div>
+      <div class="comparison-labels">
+        <span>1860</span>
+        <span>2026 (now)</span>
+      </div>
+    </div>
   </div>
 </section>
 

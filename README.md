@@ -40,3 +40,17 @@ teamxrg - https://assets.wam.ae/resource/pwl06svp1k91gyqpd.jpeg
 cycle - https://www.svgrepo.com/svg/488523/bike
 
 rightarrow - https://www.svgrepo.com/svg/522643/right
+
+sensor - https://au.ridecyclonix.com/cdn/shop/articles/cyclist-biometric-wearable-tech-closeup.png?v=1759492984
+
+trainer - https://stagescycling.com/media/wysiwyg/stages-cycling/content/news/2020/08/1442x1030-Dunte-SB20-3.png
+
+computer - https://cdn.mos.cms.futurecdn.net/d4tenViThC5VjMh2KbiUKM.jpg
+
+bora - https://pub-f154438dceef491ba243fbee53912d51.r2.dev/wp-content/uploads/2022/12/05131819/Giro22_E15_Bora-hansgrohe.jpg
+
+visma - https://d1lk6qpkbduawh.cloudfront.net/_1701x927_crop_center-center_85_none/Content-day-December-camp_2025-01-14-074134_zxsq.jpg
+
+ag2r - https://cdn.mos.cms.futurecdn.net/wreMLArJcrdophfofcUWhc.jpg
+
+trek - https://cdn.mos.cms.futurecdn.net/kNHCrhqRQXi73EqWJ6U2c3-1280-80.jpg

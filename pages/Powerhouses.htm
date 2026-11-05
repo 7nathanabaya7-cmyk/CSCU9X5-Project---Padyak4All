@@ -13,6 +13,7 @@
 
   <!--CSS-->
   <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/powerhouses.css">
 </head>
 <body>
 
@@ -33,6 +34,76 @@
   <h1>Powerhouses</h1>
   <div class="horizontalLinegtp"></div>
   <p>In road bicycle racing, a Grand Tour is one of the three major European professional cycling stage races: Giro d'Italia, Tour de France, and Vuelta a España. </p>
+</section>
+
+<section class="teams" id="teams">
+
+  <div class="teamTabs">
+    <button type="button" class="teamTab active" data-target="xrg">Team XRG</button>
+    <button type="button" class="teamTab" data-target="visma">Visma</button>
+    <button type="button" class="teamTab" data-target="bora">BORA</button>
+    <button type="button" class="teamTab" data-target="decathlon">Decathlon</button>
+    <button type="button" class="teamTab" data-target="trek">Trek</button>
+  </div>
+
+  <div class="container">
+
+    <article class="teamPanel" data-panel="xrg">
+      <div class="teamText">
+        <h2>Team UAE XRG</h2>
+        <p><strong>UCI points:</strong> 24,830</p>
+        <p><strong>Grand Tour performance:</strong> 13 stage wins (5 at the Tour, 3 at the Vuelta, 3 at the Giro); 42 stage top-10 finishes.</p>
+        <p>Led by <strong>Tadej Pogačar</strong>, who won 5 stages at the Tour and 3 at the Vuelta, plus multiple Monument victories.</p>
+        <p>Consistently strong in GC and stage races, with a deep roster of contenders. They hold the #1 spot amongst the strongest teams.</p>
+      </div>
+      <img class="teamPic" src="../assets/img/teamxrg.jpeg" alt="Team XRG riders on the podium stage">
+    </article>
+
+    <article class="teamPanel" data-panel="visma" hidden>
+      <div class="teamText">
+        <h2>Team Visma |<br/>Lease a Bike</h2>
+        <p><strong>UCI points:</strong> 23,129</p>
+        <p><strong>Grand Tour performance:</strong> 14 stage wins (6 at the Giro, 1 at the Tour, 7 at the Vuelta), the most of any team; 47 stage top-10 finishes.</p>
+        <p>Led by <strong>Jonas Vingegaard</strong>, who won the 2026 Giro and has now won every Grand Tour, taking five stages along the way. Sepp Kuss added another Giro stage, and at the Vuelta Matthew Brennan won five stages and Wout van Aert two.</p>
+        <p>Visma is the top stage-hunting team, but it had no GC points at the Tour after Vingegaard abandoned. They hold #3 in the final UCI ranking.</p>
+      </div>
+      <img class="teamPic" src="../assets/img/visma.jpg" alt="Visma riders">
+    </article>
+
+    <article class="teamPanel" data-panel="bora" hidden>
+      <div class="teamText">
+        <h2>Red Bull |<br/>BORA HANSGROHE</h2>
+        <p><strong>UCI points:</strong> 25,465</p>
+        <p><strong>Grand Tour performance:</strong> 2 stage wins, both at the Tour (none at the Giro or Vuelta); 48 stage top-10 finishes.</p>
+        <p>Led by <strong>Remco Evenepoel</strong>, who won stage 16, a time trial, at the Tour and stage 15 on the final climb ahead of Pogačar. He finished second overall. Jai Hindley took 3rd at the Giro and Primož Roglič 2nd at the Vuelta.</p>
+        <p>They are the only team with a GC podium at all three Grand Tours, but they convert few top-10s into wins. They hold #2 in the UCI ranking, the strongest team after UAE.</p>
+      </div>
+      <img class="teamPic" src="../assets/img/bora.jpg" alt="BORA riders">
+    </article>
+
+    <article class="teamPanel" data-panel="decathlon" hidden>
+      <div class="teamText">
+        <h2>Decathlon CMA CGM</h2>
+        <p><strong>UCI points:</strong> 20,663</p>
+        <p><strong>Grand Tour performance:</strong> 1 stage win (at the Tour); 39 stage top-10 finishes.</p>
+        <p>Led by <strong>Felix Gall</strong>, 2nd at the Giro and 3rd at the Vuelta, and 19-year-old Paul Seixas, 4th overall on his Tour debut. Olav Kooij won the first mass sprint in Pau, and the team finished in the top 10 on 16 of the Tour’s 21 stages.</p>
+        <p>They are strong in the GC rather than in stage wins, and won the Vuelta team classification. They hold #4 in the UCI ranking.</p>
+      </div>
+      <img class="teamPic" src="../assets/img/ag2r.jpg" alt="Decathlon riders">
+    </article>
+
+    <article class="teamPanel" data-panel="trek" hidden>
+      <div class="teamText">
+        <h2>Lidl-Trek</h2>
+        <p><strong>UCI points:</strong> 19,362</p>
+        <p><strong>Grand Tour performance:</strong> 2 stage wins (1 at the Giro, 1 at the Tour, none at the Vuelta); 49 stage top-10 finishes, the most of the four.</p>
+        <p>Led by <strong>Mads Pedersen</strong>, who won Tour stage 4 from a breakaway and sealed the green jersey. Jonathan Milan won the final stage in Rome, the team’s first Giro stage win. Mattias Skjelmose finished sixth overall at the Tour, and the team also won the Tour team classification.</p>
+        <p>Lidl-Trek is consistently in the mix but converts few chances into wins. They hold #5 in the UCI ranking.</p>
+      </div>
+      <img class="teamPic" src="../assets/img/trek.jpg" alt="Trek riders">
+    </article>
+
+  </div>
 </section>
 
 <footer>
@@ -67,6 +138,7 @@
 <button onclick="topFunction()" id="backToTop" class="poppins-medium" title="Go to top">Top</button>
 
 <script src="../js/global.js"></script>
+<script src="../js/powerhouses.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
