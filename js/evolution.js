@@ -28,5 +28,4 @@ const slider = document.querySelector(".comparison-slider");
       updateSlider(this.value);
   });
 
-  // Initial position
   updateSlider(input.value);

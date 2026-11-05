@@ -131,14 +131,9 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    background: #fffbe6;
-    font-family: Arial, sans-serif;
-}
-
 .comparison-section {
     padding: 40px 20px;
+    width: 40vw;
 }
 
 .comparison-container {
@@ -156,7 +151,6 @@ body {
     user-select: none;
 }
 
-/* Both images fill the container */
 .comparison-slider img {
     position: absolute;
     width: 100%;
@@ -167,31 +161,27 @@ body {
     pointer-events: none;
 }
 
-/* The after image is underneath */
 .after-image {
     z-index: 1;
 }
 
-/* Before image is clipped by the slider */
 .before-image {
     z-index: 2;
     clip-path: inset(0 50% 0 0);
 }
 
-/* Vertical divider */
 .slider-divider {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 50%;
     width: 3px;
-    background: #322052;
+    background: #2D0A43;
     transform: translateX(-50%);
     z-index: 3;
     pointer-events: none;
 }
 
-/* Circular slider handle */
 .slider-handle {
     position: absolute;
     top: 50%;
@@ -199,8 +189,8 @@ body {
     transform: translate(-50%, -50%);
     width: 42px;
     height: 42px;
-    background: #7929a5;
-    border: 2px solid #322052;
+    background: #6D3A8E;
+    border: 2px solid #2D0A43;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -212,7 +202,6 @@ body {
     pointer-events: none;
 }
 
-/* Invisible range input covers the whole section */
 .slider-input {
     position: absolute;
     inset: 0;
@@ -224,7 +213,6 @@ body {
     margin: 0;
 }
 
-/* Year labels */
 .comparison-labels {
     display: flex;
     justify-content: space-between;
