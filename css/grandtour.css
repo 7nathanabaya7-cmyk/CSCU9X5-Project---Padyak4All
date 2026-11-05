@@ -36,7 +36,7 @@
   justify-content: space-evenly;
 }
 .vuelta .tourPic {
-  border: 3px solid #E83E78;
+  border: 3px solid #D62839;
 }
 .tourPic {
   height: 55vh;
@@ -54,8 +54,27 @@
   filter: invert(34%) sepia(83%) saturate(1698%) hue-rotate(302deg) brightness(92%) contrast(92%);
   width: 5%;
 }
+.giro button:hover {
+  background-color: #E83E78;
+}
+.tdf button:hover {
+  background-color: #FFD700;
+}
+.vuelta button:hover {
+  background-color: #D62839;
+}
 .grandtours .giro .horizontalLine {
   background-color: #E83E78;
+  height: 4px;
+  width: 40%;
+}
+.grandtours .tdf .horizontalLine {
+  background-color: #FFD700;
+  height: 4px;
+  width: 40%;
+}
+.grandtours .vuelta .horizontalLine {
+  background-color: #D62839;
   height: 4px;
   width: 40%;
 }
