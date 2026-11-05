@@ -37,14 +37,14 @@
       <span class="headline2">for all.</span>
     </div>
     <p class="heroSmTxt poppins-light">The number 1 cylopedia in the University of Stirling.</p>
-    <button type="button" class="btn btn-lg heroBtn btn">Explore the Cyclopedia</button>
+    <button type="button" class="btn btn-lg heroBtn btn" onclick="document.getElementById('banner').scrollIntoView({ behavior: 'smooth' })">Explore the Cyclopedia</button>
   </div>
   <div>
     <img src="../assets/img/cyclistsinyellow.png" alt="Wheel" class="heroImg">
   </div>
 </section>
 
-<section class="banner poppins-medium">
+<section class="banner poppins-medium" id="banner">
   <div class="bannerBlock">
     <span class="fredoka-fr bannerNum">
       111
@@ -77,7 +77,7 @@
   </div>
 </section>
 
-<section class="about">
+<section class="about" id="about">
   <img src="../assets/img/tadejinpink.jpg" alt="Tadej Pogacar in pink" class="shadow-lg mb-5 rounded"/>
   <div class="aboutDescription">
     <h1 class="headline1 fredoka-fr">
@@ -99,23 +99,23 @@
     <div class="col">
       <div class="exploreElmnt">
         <img src="../assets/img/oldcyclists.jpg" alt="oldcyclists" class="shadow-lg rounded"/>
-      <button type="button" class="btn btn-lg btn">Evolution</button>
+      <button type="button" class="btn btn-lg btn" onclick="window.location.href='../pages/Evolution.htm'">Evolution</button>
       </div>
       
       <div class="exploreElmnt">
-        <img src="../assets/img/grandtourelmnt.jpg" alt="grandtour" class="shadow-lg rounded"/>
-        <button type="button" class="btn btn-lg btn">Grand Tours</button>
+        <img src="../assets/img/grandtourelmnt.jpg" alt="grandtour" class="shadow-lg rounded" />
+        <button type="button" class="btn btn-lg btn" onclick="window.location.href='../pages/GrandTour.htm'">Grand Tours</button>
       </div>
     </div>
     <div class="col">
       <div class="exploreElmnt">
         <img src="../assets/img/cyclinggear.webp" alt="gear" class="shadow-lg rounded"/>
-        <button type="button" class="btn btn-lg btn">Tech</button>
+        <button type="button" class="btn btn-lg btn" onclick="window.location.href='../pages/Tech.htm'">Tech</button>
       </div>
 
       <div class="exploreElmnt">
         <img src="../assets/img/teamxrg.jpeg" alt="teamxrg" class="shadow-lg rounded teamxrg"/>
-        <button type="button" class="btn btn-lg btn">Powerhouses</button>
+        <button type="button" class="btn btn-lg btn" onclick="window.location.href='../pages/Powerhouses.htm'">Powerhouses</button>
       </div>
     </div>
   </div>
