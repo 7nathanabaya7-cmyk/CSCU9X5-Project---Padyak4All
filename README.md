@@ -1,7 +1,8 @@
+Author: Nathan Bangalan Abaya
+Date: November 6, 2026
+HTML CSS JAVASCRIPT
 
-
-
-
+This website is called Padyak4All meant to be a third year project for Univesity of Stirling's UI/UX Design course. The entirety of the website is made out of pure HTML, CSS, AND JAVASCRIPT following a BOOTSTRAP framwork.
 
 Credits/Assets:
 
